@@ -1,0 +1,15 @@
+.addContact{
+    padding: 5px 15px;
+        background: #2196f3;
+        -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, .15);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, .15);
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 16px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+
+}
