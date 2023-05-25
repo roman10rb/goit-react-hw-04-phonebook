@@ -19,8 +19,8 @@ const App = () => {
     ]
   );
 
-  const [name, setName] = useState('');
-  const [number, setNumber] = useState('');
+  // const [name, setName] = useState('');
+  // const [number, setNumber] = useState('');
   const [filter, setFilter] = useState('');
 
 
@@ -77,7 +77,7 @@ const App = () => {
 
     return <div className="container">
         <h1>Phonebook</h1>
-      <Form name={name} submitContact={addContact} number={number} />
+      <Form name={contacts.name} submitContact={addContact} number={contacts.number} />
       <h2>Contacts</h2>
        <Filter value={filter}  onChange={changeFilter} />
       <ContactList todos={visibleTodos} onDeleteTodo={handleDeleteContact} />
